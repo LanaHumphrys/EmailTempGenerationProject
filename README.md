@@ -222,7 +222,7 @@ plt.show()
 # 5. Model Selection and Design
 
 markdown
-# 5. Model Selection and Design**
+# 5. Model Selection and Design
 # Choose an appropriate NLP model
 # Begin by considering pre-trained models that are well-suited for text generation and fine-tuning.
 # Configure it for email template generation.
