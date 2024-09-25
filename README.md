@@ -15,9 +15,9 @@ from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt # matplotlib and plotly are used for data visualization.
 import plotly.express as px
 from transformers import pipeline # transformers is used for implementing pre-trained models
-from docx import Document ## docx is used to extract text from .docx files.
+from docx import Document # docx is used to extract text from .docx files.
 from textblob import TextBlob # textblob is used for sentiment analysis
-from nltk import ngrams ## `nltk` is used for natural language processing tasks like tokenization and stopword removal
+from nltk import ngrams # `nltk` is used for natural language processing tasks like tokenization and stopword removal
 from wordcloud import WordCloud
 from collections import Counter
 from nltk.tokenize import word_tokenize
@@ -210,14 +210,14 @@ plt.show()
 
 
 # This section involves exploring the annotated data to uncover patterns and insights:
-- Basic Descriptive Statistics**: Calculates and displays the number of words and characters per email.
-- Sentiment Analysis**: Uses `TextBlob` to analyze the sentiment and subjectivity of the email content.
-- Bigram and Trigram Analysis**: Generates and displays the most common bigrams (pairs of words) in the email content.
-- Word Cloud for Visualization**: Creates and displays a word cloud to visualize the most common words in the email content.
-- Named Entity Recognition (NER)**: Uses `spaCy` to extract named entities from the email content.
-- Keyword/Topic Extraction**: Computes TF-IDF (Term Frequency-Inverse Document Frequency) to identify the most important words in the email content.
-- Email Category Distribution**: Plots the distribution of email categories.
-- Tokenize and Remove Stopwords**: Tokenizes the email content and removes stopwords, then plots the most common words.
+- Basic Descriptive Statistics: Calculates and displays the number of words and characters per email.
+- Sentiment Analysis: Uses "TextBlob" to analyze the sentiment and subjectivity of the email content.
+- Bigram and Trigram Analysis: Generates and displays the most common bigrams (pairs of words) in the email content.
+- Word Cloud for Visualization: Creates and displays a word cloud to visualize the most common words in the email content.
+- Named Entity Recognition (NER): Uses "spaCy" to extract named entities from the email content.
+- Keyword/Topic Extraction: Computes TF-IDF (Term Frequency-Inverse Document Frequency) to identify the most important words in the email content.
+- Email Category Distribution: Plots the distribution of email categories.
+- Tokenize and Remove Stopwords: Tokenizes the email content and removes stopwords, then plots the most common words.
 
 # 5. Model Selection and Design
 
