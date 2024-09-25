@@ -243,10 +243,10 @@ markdown
 - This section focuses on training the selected NLP model using the annotated data.
 - The goal is to teach the model to generate context-specific email templates based on the training data.
 
-# 7. Implement Reinforcement Learning**
-
+# 7. Implement Reinforcement Learning
 markdown
-# 7. Implement Reinforcement Learning**
+
+# 7. Implement Reinforcement Learning
 # Implement a feedback mechanism to improve the model's performance based on user feedback during email template generation.
 
 
